@@ -9,8 +9,8 @@ body {
     margin: 15px;
 }
 
-#conteiner {
-    background: #ede9cc;
+#container {
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -84,4 +84,57 @@ a.reserva {
     color: #fff5b0;
     padding: 5px 10px;
     float: right;
+}
+
+/* Barra de navegação vertical */
+
+#menu {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navegacao {
+    float: left;
+}
+
+ul#navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover {
+    background: #fdf6be;
+}
+
+.depoimento {
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
+/* Área de conteúdos */
+
+#area-principal {
+    float: left;
+    width: 50%;
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape {
+    clear: both;
 }
